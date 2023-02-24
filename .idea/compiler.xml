@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="IntegrationPurse" />
         <module name="PurseProject" />
+        <module name="integrationPurses" />
         <module name="CodeSecretProject" />
       </profile>
     </annotationProcessing>
