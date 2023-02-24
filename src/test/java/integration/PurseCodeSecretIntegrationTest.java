@@ -2,6 +2,7 @@ package integration;
 
 import argent.Purse;
 import argent.TransactionRejetterException;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -17,7 +18,7 @@ public class PurseCodeSecretIntegrationTest {
     private double montantDebit = 50;
 
 
-    @BeforeEach
+    @Before
     public void setUp(){
         codeSecret = new CodeSecret();
         purse = new Purse(codeSecret);
